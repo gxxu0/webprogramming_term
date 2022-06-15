@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+    font-family: 'Roboto', 'Gothic A1', sans-serif;
+    font-weight: bold;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px 0;
+}
+#header a{
+    color: rgb(42, 42, 42);
+    text-decoration: none;
+}
+#title{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#banner{
+    margin-top: 20px;
+    background-color: rgb(249, 250, 250);
+    display: flex;
+    justify-content: space-between;
+    /*margin: 25px 200px;
+    padding: 0 130px;*/
+}
+#banner-info{
+    max-width: 300px;
+}
+#banner-info img{
+    display: flex;
+    justify-content: space-evenly;
+}
+#banner img{
+    width: 300px;
+    margin: 0 30px;
+}
