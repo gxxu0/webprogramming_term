@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>k-animal hospital</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/29c4d2b017.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="main">
+        <div id="title">
+            <a href="/main/main.html" style="color: black; text-decoration: none;" id="title-a"><i class="fa-solid fa-circle-arrow-left"></i></a>&nbsp;&nbsp;k-animal hospital</div>
+            </a>
+        </div>
+        <div id="title_login">로그인</div>
+
+        <form action="/main/main.html" class="login_form" method="get">
+            <div>
+                <input type="text" name="id" id="login_id" placeholder="ID">
+            </div>
+            <div>
+                <input type="text" name="pw" id="login_pw" placeholder="Password">
+            </div>
+            <button id="login_button">로그인</button>
+        </form>
+
+        <div id="join"><a id="join_link" href="../join/join.html" target="_blank">아직 회원이 아니신가요?</a></div>
+    </main>
+    <script>
+        document.getElementById('login_button')
+                    .addEventListener('click', function(e){
+                        alert('로그인 되셨습니다.');
+                        
+                    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>k-animal hospital</title>
+    <link rel="stylesheet" href="./join.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/29c4d2b017.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="main">
+        <div id="title"><a href="/login/login.html" style="color: black;" id="loginWindow"><i class="fa-solid fa-circle-arrow-left"></i></a>&nbsp;&nbsp;k-animal hospital</div>
+        <div id="title_join">회원가입</div>
+        <form action="/login/login.html" class="join_form" method="get">
+            <div class="join_Explanation" id="profile">
+                <label for="file">프로필 사진</label>
+                <input type="file" name="file">
+            </div>
+            <div class="join_Explanation">사용자 이름</div><input type="text" name="name" id="join_name">
+            <div class="join_Explanation">아이디</div><input type="text" name="id" id="join_id">
+            <div class="join_Explanation">비밀번호</div><input type="text" name="pw" id="join_pw">
+            <div class="join_Explanation">비밀번호 재확인</div><input type="text" name="pw" id="join_pw">
+            <div class="join_Explanation">반려동물 이름</div><input type="text" name="name" id="join_name">
+            <div class="join_Explanation">반려동물 종류</div>
+            <div class="join_Explanation" style="margin: 5px 0 15px;">
+                <input type="radio" name="pet">강아지
+                <input type="radio" name="pet">고양이
+                <input type="radio" name="pet">기타 동물
+                
+            </div>
+
+            <button id="join_button">회원가입</button>
+        </form>
+        <script>
+            document.getElementById('join_button')
+                    .addEventListener('click', function(e){
+                        let sconfirm = confirm('회원 가입 하시겠습니까?');
+                        if(sconfirm == true)
+                        {
+                            alert('회원가입 되었습니다. 로그인을 해주세요.');
+                        }
+                        else
+                        {
+                            alert('회원가입에 실패하였습니다.');
+                        }
+                        
+                    });
+            
+        </script>
+    </main>
+</body>
+</html>

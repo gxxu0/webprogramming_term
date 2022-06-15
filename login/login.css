@@ -1,0 +1,66 @@
+*{
+    margin: 0 auto;
+    font-family: 'Roboto', 'Gothic A1', sans-serif;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    margin: 7% auto;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 10px;
+}
+#title{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 30px; font-weight: bold;
+}
+#title-a div:hover{
+    color: rgb(129, 129, 129);
+}
+#title_login{
+    text-align: center;
+    font-size: 25px; font-weight: 700;
+}
+.login_form{
+    margin: 50px 140px 30px;
+}
+.login_form div{
+    display: flex;
+    justify-content: space-between;
+}
+#login_id{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+#login_pw{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+#login_button{
+    width: 222px;
+    height: 37px;
+    background-color: rgb(0, 0, 255);
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: white; font-size: 16px;
+}
+#login_button:hover{
+    cursor: pointer;
+    background-color: rgb(66, 66, 255);
+}
+#join{
+    text-align: center;
+    font-size: 14px; font-weight: 600;
+}
+#join_link{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    font-weight: bold;
+}
+#join_link:hover{
+    text-decoration: underline; 
+    color: black;
+}
